@@ -1,0 +1,25 @@
+======================================================================
+TEST SET EVALUATION - BEST MODEL (baseline_adamw)
+======================================================================
+
+Total test samples: 270
+Correct predictions: 103 (38.15%)
+Incorrect predictions: 167 (61.85%)
+
+----------------------------------------------------------------------
+SAMPLE CORRECT PREDICTIONS (Top 4)
+----------------------------------------------------------------------
+1. Patches              -> Predicted: Patches              (Confidence: 99.80%)
+2. Pitted_Surface       -> Predicted: Pitted_Surface       (Confidence: 33.48%)
+3. Scratches            -> Predicted: Scratches            (Confidence: 20.43%)
+4. Rolled-in_Scale      -> Predicted: Rolled-in_Scale      (Confidence: 22.01%)
+
+----------------------------------------------------------------------
+SAMPLE INCORRECT PREDICTIONS (Top 4)
+----------------------------------------------------------------------
+1. True: Inclusion            -> Predicted: Scratches            (Confidence: 25.51%)
+2. True: Inclusion            -> Predicted: Pitted_Surface       (Confidence: 36.56%)
+3. True: Rolled-in_Scale      -> Predicted: Scratches            (Confidence: 19.81%)
+4. True: Patches              -> Predicted: Pitted_Surface       (Confidence: 25.69%)
+
+======================================================================

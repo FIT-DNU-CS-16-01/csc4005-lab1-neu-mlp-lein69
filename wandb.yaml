@@ -1,0 +1,2 @@
+entity: ${WANDB_ENTITY}
+project: csc4005-lab1-neu-mlp
